@@ -1,0 +1,27 @@
+Question 1:
+
+Consider the following symbol replacement rules:
+
+Rule 1: T(x,y) ==> x
+Rule 2: F(x,y) ==> y
+Rule 3: N(x) ==> x(F,T)
+
+Using these rules, show that N(T) ==> F.
+
+Answer: 
+
+N(T) ==> T(F,T) ==> F (GPT3 response)
+
+Question 2:
+
+Using the same rules, show that N(F) = T.
+
+Answer:  
+
+N(F) ==> F(F,T) ==> T (GPT3 response)
+
+Question 3: 
+
+Define a new replacement rule representing conjunction.
+
+Answer: C(x,y) ==>  y(x,y) (GPT3 response)
